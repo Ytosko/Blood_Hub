@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="360dp"
+    android:layout_height="270dp"
+    android:layout_gravity="center"
+    android:background="@drawable/layout_bg"
+    android:foregroundGravity="top"
+    android:gravity="top"
+    android:orientation="vertical"
+    app:layout_anchorGravity="top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_gravity="center|center_horizontal"
+                android:foregroundGravity="center"
+                android:gravity="center|center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="188dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/pin"
+                        android:layout_width="158dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Set pin"
+                        android:inputType="numberPassword"
+                        android:textColor="#009688"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:autoText="false"
+                        android:editable="false"
+                        android:freezesText="false"
+                        android:text="@string/n_b_you_cannot_change_your_npin_in_future"
+                        android:textAllCaps="false"
+                        android:textIsSelectable="false"
+                        android:visibility="visible"
+                        app:autoSizeTextType="none" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/cnf"
+                    android:layout_width="103dp"
+                    android:layout_height="106dp"
+                    android:background="@drawable/round4"
+                    android:text="@string/set"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textDirection="anyRtl"
+                    android:textIsSelectable="false"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

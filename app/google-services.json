@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1043034307477",
+    "firebase_url": "https://bldhub.firebaseio.com",
+    "project_id": "bldhub",
+    "storage_bucket": "bldhub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043034307477:android:b8cc01839a770e59ea949c",
+        "android_client_info": {
+          "package_name": "com.ytosko.bloodhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043034307477-5b0lsif1g7tk8gsnqsllin7nm6t4urj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ytosko.bloodhub",
+            "certificate_hash": "d6bbb48b078bc553c97bbcdca37917a76aff075d"
+          }
+        },
+        {
+          "client_id": "1043034307477-hv7i6sd7e936q6ktd028tmjq07ltnqd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCudZyxwKfW6cFwlYN1Ry5CJMgO875PsAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043034307477-hv7i6sd7e936q6ktd028tmjq07ltnqd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

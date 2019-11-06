@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context="com.ytosko.bloodhub.search1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/design_default_color_primary_dark" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/lcl77"
+                        android:layout_width="189dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="@string/location"
+                        android:textColor="#4CAF50"
+                        android:textColorHint="#05ab9a" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                        android:id="@+id/bld77"
+                        android:layout_width="171dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="10dp"
+                        android:hint="@string/blood_group"
+                        android:textColor="#F44336"
+                        android:textColorHint="#05ab9a" />
+                </LinearLayout>
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/design_default_color_primary_dark" />
+</LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="13dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_gravity="center|right"
+        android:gravity="end">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:foregroundGravity="right"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/profile22"
+                android:layout_width="58dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/round6"
+                android:foreground="@drawable/ppi"
+                android:foregroundGravity="center"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="\tProfile"
+                android:textColor="#304FFE"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/srch"
+            android:layout_width="58dp"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round9"
+            android:foreground="@drawable/ic_my_icon2"
+            android:foregroundGravity="center"
+            android:imeOptions="actionGo"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textDirection="anyRtl"
+            android:textIsSelectable="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#C51162"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#F81717"
+        android:divider="#793700B3"
+        android:layout_marginTop="5dp"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

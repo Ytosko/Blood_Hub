@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/layout_bg"
+    android:foregroundGravity="top"
+    android:gravity="top"
+    android:orientation="vertical"
+    app:layout_anchorGravity="top">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:gravity="center|left"
+                        android:text="Contact 1 : "
+                        android:textColor="#D50000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/con1"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:hint="Contact 1"
+                        android:shadowColor="#448AFF"
+                        android:textAlignment="center"
+                        android:textColor="#FF3D00"
+                        android:textColorHighlight="#448AFF"
+                        android:textColorHint="#B78D8888"
+                        android:textDirection="firstStrongRtl"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/call1"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/round4"
+                        android:gravity="center"
+                        android:text="Call"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="anyRtl"
+                        android:textIsSelectable="false"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center|center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:gravity="center|left"
+                        android:text="Contact 2 : "
+                        android:textColor="#D50000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/con2"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:hint="Contact 2"
+                        android:shadowColor="#448AFF"
+                        android:textAlignment="center"
+                        android:textColor="#FF3D00"
+                        android:textColorHighlight="#448AFF"
+                        android:textColorHint="#B78D8888"
+                        android:textDirection="firstStrongRtl"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/call2"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/round5"
+                        android:gravity="center"
+                        android:text="Call"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="anyRtl"
+                        android:textIsSelectable="false"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:gravity="center"
+                        android:text="Contact 3 : "
+                        android:textColor="#D50000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/con3"
+                        android:layout_width="130dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:freezesText="false"
+                        android:gravity="center"
+                        android:hint="Contact 3"
+                        android:textAlignment="center"
+                        android:textColor="#FF3D00"
+                        android:textColorHighlight="#448AFF"
+                        android:textColorHint="#B78D8888"
+                        android:textDirection="firstStrongRtl"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/call3"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/round3"
+                        android:gravity="center"
+                        android:text="Call"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="anyRtl"
+                        android:textIsSelectable="false"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:foregroundGravity="center"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center|center_horizontal">
+
+                    <Button
+                        android:id="@+id/callcon"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/round"
+                        android:gravity="center"
+                        android:text="Group\nSMS"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textDirection="anyRtl"
+                        android:textIsSelectable="false"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
