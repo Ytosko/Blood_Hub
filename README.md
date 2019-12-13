@@ -1,4 +1,4 @@
-[logo] https://github.com/Ytosko/Blood_Hub/blob/master/app/src/main/res/drawable/ic_icin_b.png "Blood Hub"
+[logo]: https://github.com/Ytosko/Blood_Hub/blob/master/app/src/main/res/drawable/ic_icin_b.png "Blood Hub"
 # Blood Hub
 An integrated platform for being and sering for blood donor
 
