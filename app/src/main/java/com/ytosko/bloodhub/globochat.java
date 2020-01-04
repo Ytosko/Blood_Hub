@@ -61,13 +61,14 @@ public class globochat extends AppCompatActivity {
     Button call,ind;
     TextView status1;
     DatabaseReference statusGet;
+    String nnmm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_globochat);
 
-        value1 = getIntent().getStringExtra("value1");
+        value = getIntent().getStringExtra("value1");
 
         SimpleDateFormat sdf121 = new SimpleDateFormat("hh:mm:ss dd/MM/yyyy", Locale.getDefault());
         String timelast = sdf121.format(new Date());
@@ -155,9 +156,13 @@ public class globochat extends AppCompatActivity {
                 String userName = map.getUser();
                 String timeC = map.getTime();
                 String timeD = map.getDate();
-                Log.e("Names" ,value1 + " " + userName);
+                Log.e("Names" ,value + " " + userName);
 
-                if (userName.equals(value1)) {
+                if(xw!=0 && nnmm != null && !nnmm.equals(userName)){
+                    //xv++;
+                    xw=0;
+                }
+                if (userName.equals(value)) {
                     addMessageBox(userName, message, timeC, timeD, 1);
                 } else {
                     addMessageBox(userName, message, timeC, timeD, 2);
@@ -266,6 +271,7 @@ public class globochat extends AppCompatActivity {
                 }
             }, 1000);
             xw++;
+            nnmm = userName;
         }
         textView0.setLayoutParams(lp2);
         textView0.setPadding(0, 40, 0, 0);
