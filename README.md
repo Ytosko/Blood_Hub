@@ -54,7 +54,7 @@ An integrated platform for being and serching for blood donor
 <img src="https://user-images.githubusercontent.com/43275869/234967239-35fa6b41-f554-4c90-b4bb-fa46b2b3a16a.png" width='300'/>
 <img src="https://user-images.githubusercontent.com/43275869/234967514-817c73b2-0311-4261-bada-ce7af31208a2.png" width='300'/></p>
 
-##
+
 ## Dependencies [Focused]
 
 * Firebase
